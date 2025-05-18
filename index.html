@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta Secreta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="flying-envelope">
+      <div class="wing left-wing">
+        <div class="feather feather1"></div>
+        <div class="feather feather2"></div>
+        <div class="feather feather3"></div>
+      </div>
+      <div class="envelope">
+        <div class="heart"></div>
+      </div>
+      <div class="wing right-wing">
+        <div class="feather feather1"></div>
+        <div class="feather feather2"></div>
+        <div class="feather feather3"></div>
+      </div>
+    </div>
+    <div class="password-box">
+      <label for="password"><span class="emoji">💌</span> Ingresa la contraseña secreta:</label>
+      <input type="password" id="password" >
+      <button id="unlock-btn">Desbloquear carta</button>
+      <div id="secret-message" class="hidden">¡Te amo! 💖</div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
