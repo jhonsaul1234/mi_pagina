@@ -19,8 +19,9 @@ document.getElementById('unlock-btn').addEventListener('click', function() {
     message.classList.remove('hidden');
     message.innerHTML = `
       <span style="font-size:1.6rem;">❤️</span><br>
-      <span style="font-size:1rem;">¡Cuanto más tiempo estoy contigo más te amo, Luana!</span><br><br>
-      <span style="font-size:0.85rem; font-weight:normal; color:#b71c36;">Sé que a veces cometo errores, pero cada día trato de mejorar para ti y para nosotros. Gracias por tu paciencia, tu amor y por estar a mi lado. Eres mi mayor inspiración y mi felicidad. ¡Te amo con todo mi corazón! 💖</span>
+      <span style="font-size:1rem;">Yeny, tú vales oro.</span><br><br>
+      <span style="font-size:0.85rem; font-weight:normal; color:#b71c36;">Sé que eres y serás una persona fuerte, y que a pesar de estar con alguien que quizá no te valore como mereces, yo solo quiero desearte de corazón que seas feliz y que nunca olvides lo mucho que vales. ❤️</span><br><br>
+      <span style="font-size:0.85rem; font-weight:normal; color:#b71c36;">Y una cosa más… deja de comer tanto ramen JAJAJA.</span>
     `;
     document.getElementById('password').style.display = 'none';
     document.getElementById('unlock-btn').style.display = 'none';
