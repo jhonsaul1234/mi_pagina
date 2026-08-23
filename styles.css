@@ -1,5 +1,5 @@
 body {
-  background: #222;
+  background: #222 url('fondo.jpg') center center / cover no-repeat fixed;
   min-height: 100vh;
   display: flex;
   align-items: center;

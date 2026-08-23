@@ -15,7 +15,7 @@ document.getElementById('unlock-btn').addEventListener('click', function() {
   const password = document.getElementById('password').value.trim().toLowerCase();
   const message = document.getElementById('secret-message');
   const box = document.querySelector('.password-box');
-  if (password === 'luanita') {
+  if (password === 'i love you') {
     message.classList.remove('hidden');
     message.innerHTML = `
       <span style="font-size:2.2rem;">❤️</span><br>
